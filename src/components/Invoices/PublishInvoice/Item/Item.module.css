@@ -1,0 +1,44 @@
+.row:not(:last-child) {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.row td {
+  padding: 10px 5px;
+}
+
+.row td:first-child {
+  padding-left: 20px;
+  width: 40%;
+}
+
+.row td:first-child select {
+  max-width: 400px;
+}
+
+.row td:last-child {
+  padding-right: 20px;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.row td.last_cell {
+  padding-right: 0;
+}
+
+.row td:not(:first-child) {
+  text-align: center;
+}
+
+.row td input {
+  width: 70px;
+}
+
+.row td button {
+  border: none;
+  font: inherit;
+  outline: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  color: #f14141;
+}

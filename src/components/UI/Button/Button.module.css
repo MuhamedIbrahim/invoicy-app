@@ -1,0 +1,25 @@
+.button {
+  border: 0;
+  outline: 0;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #4170f1;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.button__secondary {
+  background-color: #909090;
+}
+
+.button__danger {
+  background: #f14141;
+}

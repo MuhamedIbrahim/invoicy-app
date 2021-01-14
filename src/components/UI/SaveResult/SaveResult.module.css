@@ -1,0 +1,44 @@
+.save {
+  position: fixed;
+  top: -100%;
+  left: calc(50% + 110px);
+  transform: translateX(-50%);
+  width: fit-content;
+  z-index: 999;
+  transition: top 0.3s ease-in-out;
+}
+
+.save_active {
+  top: 20px;
+}
+
+.save_inactive {
+  top: -100%;
+}
+
+.save__content {
+  padding: 10px 20px 12px 15px;
+  border-radius: 5px;
+}
+
+.save__content_success {
+  background-color: #30a55b;
+}
+
+.save__content_error {
+  background-color: #f14141;
+}
+
+.save__content p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.save__content svg {
+  height: 20px;
+  margin-top: 3px;
+  margin-right: 5px;
+}

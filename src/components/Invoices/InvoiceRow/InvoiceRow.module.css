@@ -1,0 +1,64 @@
+.row {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.row td {
+  padding: 13px 7px;
+  background-color: #fff;
+}
+
+.row td::first-letter {
+  text-transform: uppercase;
+}
+
+.row td.not_captial::first-letter {
+  text-transform: none;
+}
+
+.row td:first-child {
+  padding-left: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.row td:last-child {
+  padding-right: 20px;
+  border-radius: 0 5px 5px 0;
+}
+
+.email,
+.website {
+  white-space: nowrap;
+}
+
+.email {
+  width: 1%;
+}
+
+.row input {
+  width: 15px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
+.row button {
+  border: none;
+  font: inherit;
+  outline: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  color: #4170f1;
+}
+
+.cell_nondata {
+  width: 2%;
+  white-space: nowrap;
+}
+
+.row_separate {
+  background-color: transparent;
+  height: 20px;
+}

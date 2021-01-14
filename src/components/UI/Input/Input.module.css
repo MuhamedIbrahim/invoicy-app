@@ -1,0 +1,40 @@
+.input,
+.textarea,
+.select {
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  outline: none;
+  padding: 7px;
+  font: inherit;
+  font-size: 15px;
+  transition: 0.1s ease-in-out;
+  transition-property: border-color, box-shadow;
+}
+
+.label {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.label_required:after {
+  content: " *";
+  color: #f14141;
+  font-weight: 600;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  border-color: #4170f1;
+  box-shadow: 0 0 3px rgba(65, 112, 241, 0.6);
+}
+
+.input_note {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.input_has_note {
+  margin-bottom: 5px !important;
+}

@@ -1,0 +1,84 @@
+.content {
+  padding: 50px;
+}
+
+.header {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+}
+
+.header__btns button:not(:last-child) {
+  margin-right: 40px;
+}
+
+.filter form {
+  display: flex;
+  align-self: center;
+}
+
+.filter select {
+  border-color: #909090;
+  background: none;
+  margin-right: 15px;
+  padding: 5px 10px;
+  height: 40px;
+}
+
+.filter > form > button {
+  border: none;
+  outline: none;
+  background-color: #4170f1;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.filter > form > button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.filter > form > button svg {
+  height: 23px;
+  fill: #fff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  color: #909090;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.table thead th {
+  padding-bottom: 15px;
+  padding-right: 7px;
+  padding-left: 7px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.table thead th:first-child {
+  padding-left: 45px;
+}
+
+.table thead th:last-child {
+  padding-right: 20px;
+}

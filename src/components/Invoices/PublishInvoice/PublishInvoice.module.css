@@ -1,0 +1,147 @@
+.content {
+  padding: 50px;
+}
+
+.all_fields {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.input_data {
+  display: flex;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.big_note {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.big_note strong {
+  color: #f14141;
+  font-weight: 600;
+}
+
+.input_data__left {
+  width: 50%;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_data__left textarea {
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+  resize: none;
+}
+
+.input_data__right {
+  width: 50%;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input_data__sec {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 10px;
+}
+
+.input_data__sec:nth-child(even) {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+.input_data__sec:nth-child(even):not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.all_items {
+  margin: 50px 0;
+}
+
+.items__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 20px;
+}
+
+.items__title > span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.table {
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table thead th {
+  background-color: #343434;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 5px;
+  text-align: left;
+}
+
+.table thead th:first-child {
+  border-radius: 5px 0 0 5px;
+  padding-left: 20px;
+}
+
+.table thead th:last-child {
+  border-radius: 0 5px 5px 0;
+  padding-right: 20px;
+}
+
+.table thead th:not(:first-child) {
+  text-align: center;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: auto;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.total__sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total__sec:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.total__sec:last-child {
+  border-top: 1px solid #e4e4e4;
+  padding-top: 10px;
+  color: #4170f1;
+}
+
+.total__price {
+  font-weight: 500;
+  text-align: right;
+}
+
+.content__btns {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.content__btns button:first-child {
+  margin-right: 20px;
+}

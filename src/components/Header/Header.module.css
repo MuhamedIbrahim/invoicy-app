@@ -1,0 +1,35 @@
+.header {
+  background-color: #e8e8fa;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__title {
+  color: #4170f1;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+.header__avatar {
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.header__user span {
+  margin-left: 10px;
+}
+
+@media print {
+  .header {
+    display: none;
+  }
+}
